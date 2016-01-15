@@ -1,0 +1,25 @@
+{
+  "name": "chop-chop",
+  "version": "1.0.0",
+  "description": "Support Your cause",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/shane_bruggeman/chop-chop.git"
+  },
+  "author": "Doolan, Niccum, Shane, Nygren",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/shane_bruggeman/chop-chop#readme",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-route": "^1.4.8",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.3",
+    "fullpage.js": "^2.7.6",
+    "jquery": "^2.2.0",
+    "sidr": "^2.0.0"
+  }
+}
