@@ -20,6 +20,7 @@
     "express": "^4.13.3",
     "fullpage.js": "^2.7.6",
     "jquery": "^2.2.0",
+    "nodemon": "^1.8.1",
     "sidr": "^2.0.0"
   }
 }
