@@ -13,6 +13,11 @@
 .layer2 {
     z-index: 4;
     position: absolute;
+}
+
+
+
+#home .layer2 {
     top: 7vh;
     width: 100vw;
 }
@@ -54,4 +59,20 @@
 .button-div .button {
     display: inline-block;
     font-size: 1.7em;
+}
+/***********************/
+#about {
+    background-color: #4f7588;
+    height: 30vh;
+
+}
+
+#about .layer2{
+/*width: 70vw;*/
+margin-left: 15em;
+margin-right:15em ;
+top: 103vh;
+}
+#about * {
+    color: #FFFFFF;
 }
