@@ -1,0 +1,57 @@
+#home {
+    background: url('/images/RHIT_Self_Made_Man-1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.layer1 {
+    z-index: 2;
+}
+.layer2 {
+    z-index: 4;
+    position: absolute;
+    top: 7vh;
+    width: 100vw;
+}
+
+.middle-div {
+    margin: 0 auto;/* requires a set width */
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*vertical-align: middle;*/
+}
+#rose-logo {
+    width: 80%;
+}
+
+#base-main-logo {
+    /*max-width:40vmin;*/
+    margin: 0 auto;
+    width: inherit;
+}
+
+.sign-up.button {
+
+}
+.title-page-text * {
+    text-align: center;
+}
+
+.title-page-text {
+    width: 35em;
+    color: #FFFFFF;
+}
+
+.screen {
+    background-color: #181415;
+    opacity: 0.5;
+    height: 100%;
+}
+
+.button-div .button {
+    display: inline-block;
+    font-size: 1.7em;
+}

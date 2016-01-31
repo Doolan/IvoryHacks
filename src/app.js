@@ -3,5 +3,5 @@
 
     //$('#simple-menu').sidr();
 
-    $('#fullpage').fullpage();
+    //$('#fullpage').fullpage();
 })();

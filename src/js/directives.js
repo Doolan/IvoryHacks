@@ -4,6 +4,11 @@ angular.module('ChopChopApp')
             restrict: 'E',
             templateUrl: '../../views/nav.html'
         };
+    }).directive('mainPage', function() {
+        return {
+            restrict: 'E',
+            templateUrl: '../../views/main.html'
+        };
     }).directive('registration', function() {
         return {
             restrict: 'E',
