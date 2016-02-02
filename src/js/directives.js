@@ -29,4 +29,9 @@ angular.module('ChopChopApp')
             restrict: 'E',
             templateUrl: '../../views/account.html'
         };
-    });
+    }).directive('challenges', function() {
+        return {
+            restrict: 'E',
+            templateUrl: '../../views/challenges.html'
+        };
+});

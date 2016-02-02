@@ -69,10 +69,37 @@
 
 #about .layer2{
 /*width: 70vw;*/
-margin-left: 15em;
-margin-right:15em ;
+/*margin-left: 15em;*/
+/*margin-right:15em ;*/
 top: 103vh;
 }
 #about * {
     color: #FFFFFF;
 }
+
+#challenges {
+    background-color: #A7BCD6;
+    width: 100%;
+    height: 100vh;
+}
+
+#challenges .layer2 {
+    top: 137vh;
+    width: 100%;
+    color: #FFFFFF;
+}
+#challenges h1 {
+    padding-bottom: 2.5em;
+}
+
+#challenges .column h2 {
+    text-align: center;
+}
+
+#challenges .column {
+    height: 70vh;
+    background-color: #a7bcd6;
+    padding: auto 0;
+    margin: auto 10px;
+}
+
