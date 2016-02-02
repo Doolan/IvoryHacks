@@ -13,6 +13,7 @@
 .layer2 {
     z-index: 4;
     position: absolute;
+    width: 100%;
 }
 
 
@@ -85,9 +86,9 @@ top: 103vh;
 
 #challenges .layer2 {
     top: 137vh;
-    width: 100%;
     color: #FFFFFF;
 }
+
 #challenges h1 {
     padding-bottom: 2.5em;
 }
@@ -103,3 +104,56 @@ top: 103vh;
     margin: auto 10px;
 }
 
+#when-and-where {
+    background-color: #54585A;
+    width: 100%;
+    height: 100vh;
+}
+
+#when-and-where .layer2 {
+    top: 230vh;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+#when-and-where h1 {
+    padding: 2.5em 0;
+}
+.top, .bottom {
+    height: 50vh;
+    overflow: hidden;
+}
+
+#when-and-where .section {
+    height: 100vh;
+}
+
+#when-and-where a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.where {
+    padding-top: 2em;
+}
+
+#when-and-where .column{
+    height: 70vh;
+}
+
+#self-made-man{
+    max-height: 74vh;
+}
+
+.bold-h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.heading *{
+    display: inline;
+}
+.when td {
+   padding: .715em .715em .715em 0;
+   margin-right:.5em;
+}
