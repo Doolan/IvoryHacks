@@ -1,27 +1,27 @@
 {
-  "name": "chop-chop",
-  "version": "1.0.0",
-  "description": "Support Your cause",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/shane_bruggeman/chop-chop.git"
-  },
-  "author": "Doolan, Niccum, Shane, Nygren",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/shane_bruggeman/chop-chop#readme",
-  "dependencies": {
-    "angular": "^1.4.8",
-    "angular-route": "^1.4.8",
-    "bootstrap": "^3.3.6",
-    "express": "^4.13.3",
-    "fullpage.js": "^2.7.6",
-    "jquery": "^2.2.0",
-    "nodemon": "^1.8.1",
-    "semantic-ui": "^2.1.8",
-    "sidr": "^2.0.0"
-  }
+    "name": "Ivory Hacks",
+    "version": "1.0.0",
+    "description": "High Society Coding",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com:Doolan/IvoryHacks.git"
+    },
+    "author": "Doolan, Melissa",
+    "license": "ISC",
+    "homepage": "https://github.com/Doolan/IvoryHacks",
+    "dependencies": {
+        "angular": "^1.4.8",
+        "angular-route": "^1.4.8",
+        "bootstrap": "^3.3.6",
+        "express": "^4.13.3",
+        "fullpage.js": "^2.7.6",
+        "jquery": "^2.2.0",
+        "nodemon": "^1.8.1",
+        "semantic-ui": "^2.1.8",
+        "sidr": "^2.0.0"
+    }
 }
