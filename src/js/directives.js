@@ -39,4 +39,9 @@ angular.module('ChopChopApp')
             restrict: 'E',
             templateUrl: '../../views/when-and-where.html'
         };
+    }).directive('schedule', function() {
+        return {
+            restrict: 'E',
+            templateUrl: '../../views/schedule.html'
+        };
     });

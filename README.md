@@ -24,3 +24,7 @@ npm install -g nodemon
 ![alt text](./docs/challenges.png "Challenges Page")
 ##When and Where Page
 ![alt text](./docs/when-and-where.png "When and Where Page")
+##Schedule Page
+![alt text](./docs/schedule.png "Schedule Page")
+
+
