@@ -1,3 +1,52 @@
+/*Overall attributes*/
+*{
+    color: #FFFFFF;
+}
+
+.layer1 {
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.layer2 {
+    z-index: 101;
+    position: absolute;
+    width: 100%;
+}
+
+.screen {
+    background-color: #181415;
+    opacity: 0.5;
+    height: 100%;
+}
+
+.bold-h3 {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.middle-div {
+    margin: 0 auto; /* requires a set width */
+}
+
+.top, .bottom {
+    height: 50vh;
+    overflow: hidden;
+}
+
+.heading * {
+    display: inline;
+}
+
+.section {
+    padding: 2em 0;
+}
+
+/*-------------------- Home ----------------------------------*/
 #home {
     background: url('/images/RHIT_Self_Made_Man-1.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -7,28 +56,11 @@
     height: 100vh;
 }
 
-.layer1 {
-    z-index: 2;
-}
-.layer2 {
-    z-index: 4;
-    position: absolute;
-    width: 100%;
-}
-
-
-
 #home .layer2 {
     top: 7vh;
     width: 100vw;
 }
 
-.middle-div {
-    margin: 0 auto;/* requires a set width */
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*vertical-align: middle;*/
-}
 #rose-logo {
     width: 80%;
 }
@@ -39,9 +71,6 @@
     width: inherit;
 }
 
-.sign-up.button {
-
-}
 .title-page-text * {
     text-align: center;
 }
@@ -51,46 +80,35 @@
     color: #FFFFFF;
 }
 
-.screen {
-    background-color: #181415;
-    opacity: 0.5;
-    height: 100%;
-}
-
 .button-div .button {
     display: inline-block;
     font-size: 1.7em;
 }
-/***********************/
+
+/*--------------------About ----------------------------------*/
 #about {
     background-color: #4f7588;
-    height: 30vh;
-
 }
 
-#about .layer2{
-/*width: 70vw;*/
-/*margin-left: 15em;*/
-/*margin-right:15em ;*/
-top: 103vh;
-}
-#about * {
-    color: #FFFFFF;
+#about .layer2 {
+    position: absolute;
+    height: auto;
 }
 
+/*--------------------Challenges ----------------------------------*/
 #challenges {
     background-color: #A7BCD6;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #challenges .layer2 {
-    top: 137vh;
     color: #FFFFFF;
+    padding: 2em 0;
 }
 
 #challenges h1 {
-    padding-bottom: 2.5em;
+    padding-bottom: 2em;
 }
 
 #challenges .column h2 {
@@ -101,17 +119,17 @@ top: 103vh;
     height: 70vh;
     background-color: #a7bcd6;
     padding: auto 0;
-    margin: auto 10px;
+    margin: 10px;
 }
 
+/*--------------------WHEN AND WHERE ----------------------------------*/
 #when-and-where {
     background-color: #54585A;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #when-and-where .layer2 {
-    top: 230vh;
     width: 100%;
     color: #FFFFFF;
 }
@@ -119,16 +137,8 @@ top: 103vh;
 #when-and-where h1 {
     padding: 2.5em 0;
 }
-.top, .bottom {
-    height: 50vh;
-    overflow: hidden;
-}
 
-#when-and-where .section {
-    height: 100vh;
-}
-
-#when-and-where a{
+#when-and-where a {
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -137,40 +147,32 @@ top: 103vh;
     padding-top: 2em;
 }
 
-#when-and-where .column{
+#when-and-where .column {
     height: 70vh;
 }
 
-#self-made-man{
+#self-made-man {
     max-height: 74vh;
 }
 
-.bold-h3{
-    font-weight: 900;
-    font-size: 1.5rem;
-}
-
-.heading *{
-    display: inline;
-}
 .when td {
-   padding: .715em .715em .715em 0;
-   margin-right:.5em;
+    padding: .715em .715em .715em 0;
+    margin-right: .5em;
 }
 
+/*-------------------- Schedule ----------------------------------*/
 #schedule {
     background-color: #A7BCD6;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #schedule .layer2 {
-    top: 330vh;
     color: #FFFFFF;
 }
 
 #schedule h1 {
-    padding: 2.5em 0;
+    padding: 2em 0;
 }
 
 #schedule .column h2 {
@@ -181,5 +183,5 @@ top: 103vh;
     height: 70vh;
     background-color: #a7bcd6;
     padding: auto 0;
-    margin: auto 10px;
+    margin: 10px;
 }

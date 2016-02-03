@@ -1,39 +1,38 @@
 <div class="" id="when-and-where">
-    <div class="layer1 screen"></div>
     <div class="layer2">
-        <div class="section">
-            <h1 style="text-align: center">When and Where</h1>
-            <div class="ui container grid">
-                <div class="twelve wide tablet ten wide computer column">
-                    <div class="when ui container">
-                        <h2>When?</h2>
-                        <table>
-                            <tr>
-                                <td><h2>Starts:</h2></td>
-                                <td><h3> Friday, April 15 (5:00pm Check-In)</h3></td>
-                            </tr>
-                            <tr>
-                                <td><h2>Ends: </h2></td>
-                                <td><h3> Sunday, April 17 (4:00pm Closing Ceremony))</h3></td>
-                            </tr>
-                        </table>
-                       <h3><a href="#schedule">Detailed Schedule</a></h3>
-                    </div>
-
-                    <div class="where ui container">
-                        <h2>Where?</h2>
-                        <div class="map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1539.684706747017!2d-87.32746273789921!3d39.483572327324204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d6e449ae78793%3A0x60f212402de7fda6!2sRose-Hulman+SRC!5e0!3m2!1sen!2sus!4v1454377280123"
-                                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-                    </div>
+        <h1 style="text-align: center">When and Where</h1>
+        <div class="ui container grid">
+            <div class="twelve wide tablet ten wide computer column">
+                <div class="when ui container">
+                    <h2>When?</h2>
+                    <table>
+                        <tr>
+                            <td><h2>Starts:</h2></td>
+                            <td><h3> Friday, April 15 (5:00pm Check-In)</h3></td>
+                        </tr>
+                        <tr>
+                            <td><h2>Ends: </h2></td>
+                            <td><h3> Sunday, April 17 (4:00pm Closing Ceremony))</h3></td>
+                        </tr>
+                    </table>
+                    <h3><a href="#schedule">Detailed Schedule</a></h3>
                 </div>
 
-                <div class="computer only six wide column">
-                    <img id="self-made-man" src="/images/Sculpture_backlit1.jpg" alt="">
+                <div class="where ui container">
+                    <h2>Where?</h2>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1539.684706747017!2d-87.32746273789921!3d39.483572327324204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d6e449ae78793%3A0x60f212402de7fda6!2sRose-Hulman+SRC!5e0!3m2!1sen!2sus!4v1454377280123"
+                                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
-        </div>
 
+            <div class="computer only six wide column">
+                <img id="self-made-man" src="/images/Sculpture_backlit1.jpg" alt="">
+            </div>
+        </div>
     </div>
+    <script>
+        $('#when-and-where').height(Math.max($('#when-and-where .layer2').height(), $('#when-and-where').height()));
+    </script>
 </div>

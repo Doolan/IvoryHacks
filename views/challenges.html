@@ -1,5 +1,4 @@
-<div class="" id="challenges">
-    <div class="layer1 screen"></div>
+<div id="challenges" class="section">
     <div class="layer2 ">
         <h1 style="text-align: center">Challenges</h1>
         <div class="ui centered grid">
@@ -17,4 +16,7 @@
             </div>
         </div>
     </div>
+    <script>
+        $('#challenges').height(Math.max($('#challenges .layer2').height(), $('#challenges').height()));
+    </script>
 </div>
