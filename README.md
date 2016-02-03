@@ -4,7 +4,7 @@
 git clone https://github.com/Doolan/IvoryHacks.git
 cd IvoryHacks
 npm install #installs all of the packages
-npm start
+npm start #launches the site on http://localhost:3000/
 ```
 ###_Required Tools_
 _Install these first_
