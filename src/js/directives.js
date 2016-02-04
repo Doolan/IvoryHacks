@@ -44,4 +44,9 @@ angular.module('ChopChopApp')
             restrict: 'E',
             templateUrl: '../../views/schedule.html'
         };
+    }).directive('faqs', function() {
+        return {
+            restrict: 'E',
+            templateUrl: '../../views/faqs.html'
+        };
     });
