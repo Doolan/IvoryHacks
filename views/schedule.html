@@ -1,6 +1,5 @@
 <div class="" id="schedule">
-    <div class="layer1 screen"></div>
-    <div class="layer2 ">
+   <div class="layer2 ">
         <h1 style="text-align: center">Schedule</h1>
         <div class="ui centered grid">
             <div class="twelve wide tablet five wide computer column">
@@ -16,4 +15,7 @@
             </div>
         </div>
     </div>
+    <script>
+        $('#schedule').height(Math.max($('#schedule .layer2').height(), $('#schedule').height()));
+    </script>
 </div>
