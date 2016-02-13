@@ -37,6 +37,10 @@ node_modules
 #jetbrains
 .idea
 
-#semantic-ui (which folders should I remove?)
+
+*.zip
+
+#semantic-ui (which folders should I remove?) BOTH
 semantic/
 semantic.json
+

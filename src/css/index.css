@@ -97,7 +97,9 @@ body {
 
 /*--------------------About ----------------------------------*/
 #about {
-    background-color: #4f7588;
+    /*background-color: #4f7588;*/
+    padding: 2em;
+    background: url('/images/random_grey_variations_@2X.png') repeat center center ;
 }
 
 #about .layer2 {
@@ -107,9 +109,14 @@ body {
 
 /*--------------------Challenges ----------------------------------*/
 #challenges {
-    background-color: #A7BCD6;
+    /*background-color: #A7BCD6;*/
     width: 100%;
     min-height: 100vh;
+    background: url('/images/RHIT_Self_Made_Man-10.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #challenges .layer2 {
@@ -127,7 +134,7 @@ body {
 
 #challenges .column {
     height: 70vh;
-    background-color: #a7bcd6;
+    /*background-color: #a7bcd6;*/
     padding: auto 0;
     margin: 10px;
 }
@@ -172,9 +179,16 @@ body {
 
 /*-------------------- Schedule ----------------------------------*/
 #schedule {
-    background-color: #A7BCD6;
+    /*background-color: #A7BCD6;*/
     width: 100%;
     min-height: 100vh;
+    /*z-index: 50;*/
+    background: url('/images/congruent_outline.png') repeat center center ;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    /*height: 100vh;*/
 }
 
 #schedule .layer2 {
@@ -191,16 +205,22 @@ body {
 
 #schedule .column {
     height: 70vh;
-    background-color: #a7bcd6;
+    /*background-color: #a7bcd6;*/
     padding: auto 0;
     margin: 10px;
 }
 
-/*-------------------- Sponsors ----------------------------------*/
+
+/*---------- Sponsors -------------- */
 #sponsors {
-    background-color: #d61512;
+    /*background-color: #A7BCD6;*/
     width: 100%;
-    min-height: 150vh;
+    min-height: 100vh;
+    background: url('/images/White-Chapel.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #sponsors .layer2 {
@@ -211,17 +231,17 @@ body {
     padding: 2em 0;
 }
 
-/*-------------------- FAQs ----------------------------------*/
-#faqs {
-    background-color: #136917;
+
+/*---------- Map -------------- */
+#map iframe {
+    width: 100vw;
+}
+
+/*---------- Sponsors -------------- */
+#faq {
+    /*background-color: #A7BCD6;*/
+    padding: 2em;
     width: 100%;
     min-height: 100vh;
-}
-
-#faqs .layer2 {
-    color: #FFFFFF;
-}
-
-#faqs h1 {
-    padding: 2em 0;
+    background: url('/images/escheresque_ste_@2X.png') repeat center center fixed;
 }
