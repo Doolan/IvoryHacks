@@ -34,11 +34,6 @@ angular.module('ChopChopApp')
             restrict: 'E',
             templateUrl: '../../views/challenges.html'
         };
-    //}).directive('whenAndWhere', function() {
-    //    return {
-    //        restrict: 'E',
-    //        templateUrl: '../../views/when-and-where.html'
-    //    };
     })
     .directive('map', function() {
         return {
@@ -50,12 +45,6 @@ angular.module('ChopChopApp')
             restrict: 'E',
             templateUrl: '../../views/schedule.html'
         };
-
-    }).directive('faq', function() {
-    return {
-        restrict: 'E',
-        templateUrl: '../../views/faq.html'
-    };
 
     }).directive('faqs', function() {
         return {

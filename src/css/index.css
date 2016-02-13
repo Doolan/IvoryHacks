@@ -112,7 +112,7 @@ body {
     /*background-color: #A7BCD6;*/
     width: 100%;
     min-height: 100vh;
-    background: url('/images/RHIT_Self_Made_Man-10.jpg') no-repeat center center fixed;
+    background: url('/images/RHIT_Self_Made_Man-10.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -216,7 +216,7 @@ body {
     /*background-color: #A7BCD6;*/
     width: 100%;
     min-height: 100vh;
-    background: url('/images/White-Chapel.jpg') no-repeat center center fixed;
+    background: url('/images/White-Chapel.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -237,11 +237,11 @@ body {
     width: 100vw;
 }
 
-/*---------- Sponsors -------------- */
-#faq {
+/*---------- FAQs -------------- */
+#faqs {
     /*background-color: #A7BCD6;*/
     padding: 2em;
     width: 100%;
     min-height: 100vh;
-    background: url('/images/escheresque_ste_@2X.png') repeat center center fixed;
+    background: url('/images/escheresque_ste_@2X.png') repeat center center;
 }
