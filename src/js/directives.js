@@ -50,9 +50,18 @@ angular.module('ChopChopApp')
             restrict: 'E',
             templateUrl: '../../views/schedule.html'
         };
+<<<<<<< HEAD
     }).directive('faq', function() {
     return {
         restrict: 'E',
         templateUrl: '../../views/faq.html'
     };
 });
+=======
+    }).directive('faqs', function() {
+        return {
+            restrict: 'E',
+            templateUrl: '../../views/faqs.html'
+        };
+    });
+>>>>>>> master

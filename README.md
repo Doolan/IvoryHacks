@@ -15,6 +15,19 @@ _Install these first_
 ```bash
 npm install -g nodemon
 ```
+
+###npm install errors
+In the unlikely case Semanitic UI has installation errors:
+```bash
+npm install -g gulp
+npm install semantic-u --save 
+#Or
+npm install
+#Then
+cd semantic-ui/
+gulp build
+```
+
 #Site Sections
 ##Main Page
 ![alt text](./docs/home_screen.png "Home Page")

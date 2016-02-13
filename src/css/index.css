@@ -3,6 +3,16 @@
     color: #FFFFFF;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#heading-underline {
+    max-width: 70px;
+    height: 5px;
+    background: #FFFFFF;
+}
+
 .layer1 {
     z-index: 2;
     width: 100vw;
@@ -200,6 +210,7 @@
     margin: 10px;
 }
 
+<<<<<<< HEAD
 /*---------- Sponsors -------------- */
 #sponsors {
     /*background-color: #A7BCD6;*/
@@ -228,4 +239,34 @@
     /*-moz-background-size: cover;*/
     /*-o-background-size: cover;*/
     /*background-size: cover;*/
+=======
+/*-------------------- Sponsors ----------------------------------*/
+#sponsors {
+    background-color: #d61512;
+    width: 100%;
+    min-height: 150vh;
+}
+
+#sponsors .layer2 {
+    color: #FFFFFF;
+}
+
+#sponsors h1 {
+    padding: 2em 0;
+}
+
+/*-------------------- FAQs ----------------------------------*/
+#faqs {
+    background-color: #136917;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#faqs .layer2 {
+    color: #FFFFFF;
+}
+
+#faqs h1 {
+    padding: 2em 0;
+>>>>>>> master
 }
