@@ -210,7 +210,7 @@ body {
     margin: 10px;
 }
 
-<<<<<<< HEAD
+
 /*---------- Sponsors -------------- */
 #sponsors {
     /*background-color: #A7BCD6;*/
@@ -222,6 +222,15 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+#sponsors .layer2 {
+    color: #FFFFFF;
+}
+
+#sponsors h1 {
+    padding: 2em 0;
+}
+
 
 /*---------- Map -------------- */
 #map iframe {
@@ -235,38 +244,4 @@ body {
     width: 100%;
     min-height: 100vh;
     background: url('/images/escheresque_ste_@2X.png') repeat center center fixed;
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: cover;*/
-=======
-/*-------------------- Sponsors ----------------------------------*/
-#sponsors {
-    background-color: #d61512;
-    width: 100%;
-    min-height: 150vh;
-}
-
-#sponsors .layer2 {
-    color: #FFFFFF;
-}
-
-#sponsors h1 {
-    padding: 2em 0;
-}
-
-/*-------------------- FAQs ----------------------------------*/
-#faqs {
-    background-color: #136917;
-    width: 100%;
-    min-height: 100vh;
-}
-
-#faqs .layer2 {
-    color: #FFFFFF;
-}
-
-#faqs h1 {
-    padding: 2em 0;
->>>>>>> master
 }
