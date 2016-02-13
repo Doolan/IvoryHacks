@@ -9,11 +9,11 @@ angular.module('ChopChopApp')
             restrict: 'E',
             templateUrl: '../../views/main.html'
         };
-    }).directive('registration', function() {
-        return {
-            restrict: 'E',
-            templateUrl: '../../views/registration.html'
-        };
+    //}).directive('registration', function() {
+    //    return {
+    //        restrict: 'E',
+    //        templateUrl: '../../views/registration.html'
+    //    };
     }).directive('about', function() {
         return {
             restrict: 'E',
@@ -24,24 +24,35 @@ angular.module('ChopChopApp')
             restrict: 'E',
             templateUrl: '../../views/sponsors.html'
         };
-    }).directive('account', function() {
-        return {
-            restrict: 'E',
-            templateUrl: '../../views/account.html'
-        };
+    //}).directive('account', function() {
+    //    return {
+    //        restrict: 'E',
+    //        templateUrl: '../../views/account.html'
+    //    };
     }).directive('challenges', function() {
         return {
             restrict: 'E',
             templateUrl: '../../views/challenges.html'
         };
-    }).directive('whenAndWhere', function() {
+    //}).directive('whenAndWhere', function() {
+    //    return {
+    //        restrict: 'E',
+    //        templateUrl: '../../views/when-and-where.html'
+    //    };
+    })
+    .directive('map', function() {
         return {
             restrict: 'E',
-            templateUrl: '../../views/when-and-where.html'
+            templateUrl: '../../views/map.html'
         };
     }).directive('schedule', function() {
         return {
             restrict: 'E',
             templateUrl: '../../views/schedule.html'
         };
-    });
+    }).directive('faq', function() {
+    return {
+        restrict: 'E',
+        templateUrl: '../../views/faq.html'
+    };
+});
